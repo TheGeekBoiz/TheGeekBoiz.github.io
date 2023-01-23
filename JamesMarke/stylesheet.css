@@ -1,3 +1,4 @@
-logo {
-    letter-spacing: -1px;
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Black.ttf');
 }

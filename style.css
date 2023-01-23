@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Tahoma, Geneva, Verdana, sans-serif, Curlz MT, Comic Sans MS;
+  
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+small {
+  font-size: 18px;
+}
+big {
+  font-size: 1008px;
+}
+.corner-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: blue;
+}
+.other-corner-button {
+  position: absolute;
+  bottom: 20px;
+  float: left;
+  left: 0px;
+}
+.mega-header {
+  background-color: #664f00;
+  opacity: 0.5;
+  font-size: 100px;
+  
+  text-align: center;
+  padding: 50px;
+}
+.eam {
+  height: 70%;
+  width: 70%;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.eam:hover {
+  background-color: inherit;
+}
+.mega-header:hover {
+  opacity: 0.75;
+  transition: 0.5s;
+  padding: 100px;
+}
+.stripe:hover {
+  background: linear-gradient(rgb(0, 255, 0), #82e557);
+  border-radius: 7px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+.left {
+  display: flex;
+  justify-content: left;
+  position: absolute;
+}
+.right {
+  display: flex;
+  justify-content: right;
+  top: 0;
+}
+nav {
+  background: #000;
+  padding: 10px;
+  color: #fff;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+  align-items: center;
+  position: reletive;
+  border-radius: 5px;
+}
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav a {
+  font-size: 12pt;
+}
+nav a:hover {
+  background: none;
+  color: #fff;
+}
+summary {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 100px;
+  text-align: center;
+}
+a:hover, button:hover {
+  background-color: whitesmoke;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  color: black;
+  transition: 0.5s;
+}
+.nonbutton {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 30px;
+}
+.stripe a:hover {
+  background: none;
+}
+.james-button {
+  border-radius: 7px;
+  background-color:  #9624fd;
+  color: white;
+  border: none;
+  outline: none;
+}
+.rjt-button {
+  border-radius: 7px;
+  background-color:  #dc455b;
+  color: white;
+  border: none;
+  outline: none;
+}
+.epic-button {
+  border-radius: 7px;
+  background-color:  #e2780e;
+  color: white;
+  border: none;
+  outline: none;
+  font-family: Pacifico, Tahoma;
+}
+.about-button {
+  border-radius: 7px;
+  background-color:  #707070;
+  color: white;
+  border: none;
+  outline: none;
+}
+.crystalyser-button {
+  border-radius: 7px;
+  background-color:  #07a076;
+  color: white;
+  border: none;
+  outline: none;
+}
+.tiggy-button {
+  border-radius: 7px;
+  background-color:  #d3b505;
+  color: black;
+  border: none;
+  outline: none;
+}
+.quandile-button {
+  border-radius: 7px;
+  background-color:  #f34223;
+  color: white;
+  border: none;
+  outline: none;
+}
+.python-button {
+  border-radius: 7px;
+  background-color:  #1757ff;
+  color: white;
+  border: none;
+  outline: none;
+  font-family: Comic Sans MS, Tahoma;
+}
+button {
+  border-radius: 7px;
+  background-color:  black;
+  color: white;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+.button-section {
+  text-align: center;
+}
+.corner-about {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.corner-abotut {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+.details {
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  color: whitesmoke;
+}
+.maindetailtext {
+  text-align: center;
+  color: whitesmoke;
+}
+.rainbow{
+		animation: rainbow 2.5s linear;
+		animation-iteration-count: infinite;
+}
+.bigboi {
+  width: 50px;
+  height: 50px;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #00758f;
+  outline: none;
+}
+@keyframes rainbow-bg{
+		100%,0%{
+			background-color: rgb(255,0,0);
+		}
+		8%{
+			background-color: rgb(255,127,0);
+		}
+		16%{
+			background-color: rgb(255,255,0);
+		}
+		25%{
+			background-color: rgb(127,255,0);
+		}
+		33%{
+			background-color: rgb(0,255,0);
+		}
+		41%{
+			background-color: rgb(0,255,127);
+		}
+		50%{
+			background-color: rgb(0,255,255);
+		}
+		58%{
+			background-color: rgb(0,127,255);
+		}
+		66%{
+			background-color: rgb(0,0,255);
+		}
+		75%{
+			background-color: rgb(127,0,255);
+		}
+		83%{
+			background-color: rgb(255,0,255);
+		}
+		91%{
+			background-color: rgb(255,0,127);
+		}
+}
+
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.huge {
+  font-size: 2000px;
+}

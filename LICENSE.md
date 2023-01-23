@@ -1,4 +1,3 @@
-# Copyright (c) 2023 TheGeekBoiz
 
 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 

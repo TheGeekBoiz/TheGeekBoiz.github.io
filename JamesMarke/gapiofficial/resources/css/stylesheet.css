@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/JamesMarke/Poppins-Black.ttf) format('ttf');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins Bold';
+  font-style: normal;
+  src: url(/JamesMarke/Poppins-Bold.ttf) format('ttf');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cool';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://kinsta.com/wp-content/themes/kinsta/fonts/BrandonText-Black.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body, html {
+  background-color: #000010;
+  color: white;
+  font-family: 'Poppins', 'Open Sans';
+  background: url(/JamesMarke/gapiofficial/resources/img/cool.jpg) no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.slim-header {
+  padding: 10px;
+  background-color: #000;
+  text-align: right;
+}
+center {
+  font-size: 200px;
+  color: #FFFFFF;
+  text-align: center;
+  float: center;
+  font-family: 'Cool';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  display: absolute;
+}
+h3 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-button {
+  background-color: #7b00d7;
+  outline: none;
+  border: none;
+  border-radius: 7.5px;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+}
+.main-button:hover {
+  background-color: #4500d6;
+}

@@ -1,0 +1,60 @@
+body, html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-image {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.est {
+  float: right;
+}
+.complation-header {
+  border-bottom: 2px solid #cccccc;
+}
+article {
+  border: 4px solid #959595;
+  border-radius: 30px;
+  text-align: center;
+  align-content: center;
+  background-color: #e9e9e9;
+  cursor: pointer;
+}
+article:hover {
+  background-color: #e1e1e1;
+  transition: 0.3s;
+}
+.article-image {
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+}
+.custom-cm__a {
+  text-decoration: none;
+  color: inherit;  
+}
+.custom-cm {
+  color: black;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  display: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.custom-cm__item {
+  cursor: pointer;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: inherit;
+}
+.custom-cm__item:hover {
+  background-color: #f8f8f8;
+}
+.custom-cm__divider {
+  border-bottom: 1px solid #eeeeee;
+  margin: 10px 0;
+}

@@ -1,0 +1,15 @@
+html, body {
+    width: 100;
+    height: 100;
+    font-size: larger;
+    background-color: rgb(245, 225, 145);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.start-typing {
+    font-size: larger;
+    opacity: 50%;
+}
+.start-typing:hover {
+    opacity: 100%;
+    transition: 5s;
+}

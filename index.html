@@ -1,2 +1,120 @@
-<title>TheGeekBoiz</title>  
-<h1>Existing</h1>
+<!DOCTYPE html>
+<html>
+  <script>
+  //The following annoys the user with some stupid cookie warning (required).
+function getCookie(cname) {
+    var name = cname + '=';
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+    }
+    return '';
+}
+
+function setCookie(cname, cvalue, date) {
+  if (getCookie('agreed') != 'Yes') return;
+    document.cookie = cname + '=' + cvalue + '; ' + expires + 'expires=' + date.toUTCString() + ';';
+}
+
+if (getCookie('agreed') == '') {
+  var r = confirm('In easy words: EU/UK law enforces us to show this alert: This site uses cookies. Click "OK" to continue, "Cancel" to stop. Disable cookies if you do not like them.\n\n\n\
+In complicated words: This site stores information on your terminal equipment in order to provide the given service. Other websites embedded in this website might store information as well.\n\
+Click "OK" to allow information to be stored. Click "Cancel" to stop *this* website from storing information. \
+A cookie to save your choice will be stored either way, as this is information which is strictly necessary in order to provide service which is explicitly requested to store by you.');
+  console.log(r)
+  if (r == true) {
+    var d = new Date();
+    d.setTime(d.getTime() + 31536000000);
+    document.cookie = 'agreed=Yes; expires=' + d.toUTCString() + ';';
+  } else {
+    var d = new Date();
+    d.setTime(d.getTime() + 31536000000);
+    document.cookie = 'agreed=No; expires=' + d.toUTCString() + ';';
+  }
+}
+
+</script>
+
+<head>
+
+  <head>
+    <style>
+      body {
+        background-image: url("tux.jpg");
+
+      }
+    </style>
+    <script src="https://kit.fontawesome.com/6fd5b12557.js" crossorigin="anonymous"></script>
+
+  </head>
+  <link rel="stylesheet" href="/style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5805720950950790"
+    crossorigin="anonymous"></script>
+  <link rel="icon" type="image/ico" href="zfavicon.ico" />
+  <title>TheGeekBoiz</title>
+</head>
+
+<body>
+  <nav>
+    <div><a><i class="fa-solid fa-bars"></i></a></div>
+    <div class=right><a><i class="fa-solid fa-user"></i></a>&nbsp;<a><i class="fa-solid fa-bullhorn"></i></a></div>
+  </nav>
+  <!-- hitwebcounter Code START DONT DELETE JAMES (GASTON APPROVED (true)) -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=8135153&style=0007&nbdigits=5&type=page&initCount=451" title="Free Counter" Alt="web counter"   border="0" /></a>                                    
+                                    
+                                        
+                                          
+                            
+  <header class="mega-header">TheGeekBoiz<br><button class="about-button"><a href="about/index.htm">
+    
+       <i class="fa-solid fa-address-card"></i></a></button>&nbsp;<button class="about-button stripe"><a
+        href="https://buy.stripe.com/test_bIYcObgBkchtgzm144"><i class="fa-solid fa-dollar-sign"></i>
+      </a></button></header>
+  <br>
+  <section class="button-section">
+    <br>
+    <button class="python-button"><a href="/PythonScratcher/index.html">PythonScratcher</a></button>
+    <button class="python-button"><a href="/PythonScratcher/dino/index.html">Dino</a></button>
+    <button class="python-button"><a href="/PythonScratcher/googleru/index.html">Google</a></button>
+    <button class="python-button"><a href="/PythonScratcher/youareanidiot/index.html">Prep helper </a></button>
+    <button class="python-button"><a href="/PythonScratcher/nootes/index.html">Nootes <small>forked</small></a></button>
+    <button class="python-button"><a href="/PythonScratcher/login/index.htm">Login Test</a></button>
+    <button class="python-button"><a href="PythonScratcher/dvdbounce/index.html">DVD Bounce</a></button>
+    <button class="python-button"><a href="http://pprobux.square.site">Free Robux</a></button>
+    <button class="python-button"><a href="/PythonScratcher/txthuge/index.html">Huge Text</a></button>
+    <br>
+    <button class="james-button"><a href="https://site.jamesmarke.repl.co/index.html">JamesMarke <small>(Crunchy New
+          Update!)</small></a></button>
+    <button class="james-button"><a href="/JamesMarke/gapiofficial/index.htm">GAPI</a></button>
+    <button class="james-button"><a href="/JamesMarke/notes/index.html">Notes</a></button>
+    <button class="james-button other-corner-button"><a href="/JamesMarke/compilation/index.htm"><i
+          class="fa-solid fa-newspaper"></i></a></button>
+    <br>
+    <button class="epic-button"><a href="/Ed/index.html">lovley stuff</a></button>
+    <button class="epic-button"><a href="/backup.html">test</a></button>
+
+    <br>
+    <button class="quandile-button"><a href="/quandile.html">QUANDILE</a></button>
+    <br>
+    <button class="rjt-button"><a href="/RJT/index.html">RJT</a></button>
+    <br>
+    <button class="crystalyser-button"><a href="/crystalyser562/index.html">crystalyser562</a></button>
+    <br>
+    <button class="tiggy-button"><a href="/Tiggy282/index.html">Tiggy282</a></button>
+
+  </section>
+  <br>
+  <button class="corner-button"><a href="/PythonScratcher/login/index.html"><i class="fa-solid fa-comments"></i></a>
+  </button>
+  <br>
+  <button><a href="zzz.html">DO NOT PRESS</a></button>
+  <br>
+  <button><a href="therock.html">sus</a></button>
+
+  <link rel="icon" type="image/ico" href="zfavicon.ico" />
+</body>
+
+</html>

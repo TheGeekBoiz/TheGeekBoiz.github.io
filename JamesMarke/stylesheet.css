@@ -8,5 +8,6 @@ html {
     background-size: contain;
     background-repeat: no-repeat;
     display: grid;
+    position: absolute;
     border-radius: 50%;
 }

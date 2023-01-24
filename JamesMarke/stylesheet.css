@@ -1,8 +1,4 @@
-@font-face {
-    font-family: 'Poppins';
-    src: url('Poppins-Black.ttf');
-    font-weight: 300;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html {
     font-family: 'Poppins', sans-serif;
 }

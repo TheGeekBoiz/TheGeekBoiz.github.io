@@ -21,11 +21,6 @@ body {
 #cookie-agreement button {
   background: #d3b505;
 }
-#cookie-agreement a {
-  font-size: initial;
-  text-decoration: initial;
-  color: initial;
-}
 small {
   font-size: 18px;
 }
@@ -102,7 +97,7 @@ nav {
   position: reletive;
   border-radius: 5px;
 }
-a {
+button a {
   font-size: 30px;
   text-decoration: none;
   color: whitesmoke;

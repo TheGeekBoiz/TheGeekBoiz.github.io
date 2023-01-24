@@ -21,6 +21,11 @@ body {
 #cookie-agreement button {
   background: #d3b505;
 }
+#cookie-agreement a {
+  font-size: initial;
+  text-decoration: initial;
+  color: initial;
+}
 small {
   font-size: 18px;
 }
@@ -188,7 +193,7 @@ a:hover, button:hover {
   color: white;
   border: none;
   outline: none;
-  font-family: Comic Sans MS, Tahoma, Arial, Helvetica, sans-serif;
+  font-family: Comic Sans MS, Tahoma;
 }
 button {
   border-radius: 7px;

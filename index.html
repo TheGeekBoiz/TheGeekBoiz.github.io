@@ -18,19 +18,16 @@ function setCookie(cname, cvalue, date) {
     document.cookie = cname + '=' + cvalue + '; ' + expires + 'expires=' + date.toUTCString() + ';';
 }
 
-if (getCookie('agreed') == '') {
-  var r = true;
-  console.log(r)
-  if (r == true) {
-    var d = new Date();
-    d.setTime(d.getTime() + 31536000000);
-    document.cookie = 'agreed=Yes; expires=' + d.toUTCString() + ';';
-  } else {
-    var d = new Date();
-    d.setTime(d.getTime() + 31536000000);
-    document.cookie = 'agreed=No; expires=' + d.toUTCString() + ';';
+function cookieAccept() {
+  var d = new Date();
+  d.setTime(d.getTime() + 31536000000);
+  document.cookie = 'agreed=Yes; expires=' + d.toUTCString() + ';';
   }
-}
+function cookieDeny() {
+  var d = new Date();
+  d.setTime(d.getTime() + 31536000000);
+  document.cookie = 'agreed=No; expires=' + d.toUTCString() + ';';
+  }
 
 </script>
 
@@ -54,7 +51,7 @@ if (getCookie('agreed') == '') {
 </head>
 
 <body>
-  <div id="cookie-agreement"><span>By visiting this website, you are accepting the cookie policy.<br>For more information, click <a href="cookie-policy.html">here</a></span><button>Accept all</button><button>Decline all</button></div>
+  <div id="cookie-agreement"><span>By visiting this website, you are accepting the cookie policy.<br>For more information, click <a href="cookie-policy.html">here</a></span><button onclick="cookieAccept()">Accept all</button><button onclick="cookieDeny()">Decline all</button></div>
   <nav>
     <div><a><i class="fa-solid fa-bars"></i></a></div>
     <div class=right><a><i class="fa-solid fa-user"></i></a>&nbsp;<a><i class="fa-solid fa-bullhorn"></i></a></div>

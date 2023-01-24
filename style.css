@@ -11,11 +11,9 @@ body {
   background-size: cover;
 }
 #cookie-agreement {
-  opacity: 0.5;
+  opacity: 0.8;
   background: #2b2b2b;
-  position: absolute;
   text-align: center;
-  float: center;
   left: 0;
   right: 0;
 }

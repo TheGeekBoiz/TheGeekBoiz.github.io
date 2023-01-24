@@ -3,7 +3,7 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 .main-image-div {
-    background: url('favicon.ico');
+    background: url('favicon.jpg');
     padding: 130px;
     background-size: cover;
 }

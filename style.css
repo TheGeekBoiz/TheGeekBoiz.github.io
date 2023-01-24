@@ -15,6 +15,9 @@ body {
   background: #2b2b2b;
   position: absolute;
   text-align: center;
+  float: center;
+  left: 0;
+  right: 0;
 }
 small {
   font-size: 18px;

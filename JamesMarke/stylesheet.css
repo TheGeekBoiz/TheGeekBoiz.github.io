@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Poppins';
     src: url('Poppins-Black.ttf');
+    font-weight: 300;
 }
 html {
     font-family: 'Poppins', sans-serif;

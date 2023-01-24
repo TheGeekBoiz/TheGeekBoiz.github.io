@@ -22,12 +22,14 @@ function cookieAccept() {
   var d = new Date();
   d.setTime(d.getTime() + 31536000000);
   document.cookie = 'agreed=Yes; expires=' + d.toUTCString() + ';';
-  }
+  document.getElementById('cookie-agreement').hidden = true
+}
 function cookieDeny() {
   var d = new Date();
   d.setTime(d.getTime() + 31536000000);
   document.cookie = 'agreed=No; expires=' + d.toUTCString() + ';';
-  }
+  document.getElementById('cookie-agreement').hidden = true
+}
 
 </script>
 

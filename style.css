@@ -94,8 +94,11 @@ nav {
   flex-grow: 1;
   text-align: center;
   align-items: center;
-  position: reletive;
+  position: relative;
   border-radius: 5px;
+}
+a {
+  text-decoration: inherit;
 }
 button a {
   font-size: 30px;

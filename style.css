@@ -16,6 +16,10 @@ body {
   text-align: center;
   left: 0;
   right: 0;
+  color: #ffffff;
+}
+#cookie-agreement button {
+  background: #d3b505;
 }
 small {
   font-size: 18px;

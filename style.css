@@ -119,7 +119,7 @@ summary {
   border-radius: 100px;
   text-align: center;
 }
-a:hover, button:hover {
+button a:hover, button:hover {
   background-color: whitesmoke;
   border-radius: 7px;
   border: none;

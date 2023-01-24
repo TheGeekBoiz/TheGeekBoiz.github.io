@@ -188,7 +188,7 @@ a:hover, button:hover {
   color: white;
   border: none;
   outline: none;
-  font-family: Comic Sans MS, Tahoma;
+  font-family: Comic Sans MS, Tahoma, Arial, Helvetica, sans-serif;
 }
 button {
   border-radius: 7px;

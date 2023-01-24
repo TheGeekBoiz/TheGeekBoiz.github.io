@@ -1,4 +1,3 @@
-console.log("Python Was Here")
 function showContextMenu(show = true) {
   document.querySelector('.custom-cm').style.display = show ? 'block' : 'none';
 }

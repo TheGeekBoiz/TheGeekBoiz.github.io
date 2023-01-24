@@ -19,10 +19,7 @@ function setCookie(cname, cvalue, date) {
 }
 
 if (getCookie('agreed') == '') {
-  var r = confirm('In easy words: EU/UK law enforces us to show this alert: This site uses cookies. Click "OK" to continue, "Cancel" to stop. Disable cookies if you do not like them.\n\n\n\
-In complicated words: This site stores information on your terminal equipment in order to provide the given service. Other websites embedded in this website might store information as well.\n\
-Click "OK" to allow information to be stored. Click "Cancel" to stop *this* website from storing information. \
-A cookie to save your choice will be stored either way, as this is information which is strictly necessary in order to provide service which is explicitly requested to store by you.');
+  var r = true;
   console.log(r)
   if (r == true) {
     var d = new Date();
@@ -61,15 +58,14 @@ A cookie to save your choice will be stored either way, as this is information w
     <div><a><i class="fa-solid fa-bars"></i></a></div>
     <div class=right><a><i class="fa-solid fa-user"></i></a>&nbsp;<a><i class="fa-solid fa-bullhorn"></i></a></div>
   </nav>
-  <!-- hitwebcounter Code START DONT DELETE JAMES (GASTON APPROVED (true)) -->
 <a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=8135153&style=0007&nbdigits=5&type=page&initCount=451" title="Free Counter" Alt="web counter"   border="0" /></a>                                    
-                                    
-                                        
-                                          
-                            
+<img src="https://hitwebcounter.com/counter/counter.php?page=8135153&style=0007&nbdigits=5&type=page&initCount=451" title="Free Counter" Alt="web counter"   border="0" /></a>
+
+
+
+
   <header class="mega-header">TheGeekBoiz<br><button class="about-button"><a href="about/index.htm">
-    
+
        <i class="fa-solid fa-address-card"></i></a></button>&nbsp;<button class="about-button stripe"><a
         href="https://buy.stripe.com/test_bIYcObgBkchtgzm144"><i class="fa-solid fa-dollar-sign"></i>
       </a></button></header>
@@ -114,6 +110,7 @@ A cookie to save your choice will be stored either way, as this is information w
   <button><a href="therock.html">sus</a></button>
 
   <link rel="icon" type="image/ico" href="zfavicon.ico" />
+  <div id="cookie-agreement"><span>By visiting this website, you are accepting the cookie policy.<br>For more information, click <a href="cookie-policy.html">here</a></span></div>
 </body>
 
 </html>

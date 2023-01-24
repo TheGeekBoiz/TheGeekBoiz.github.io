@@ -3,14 +3,19 @@ body {
   height: 100%;
   width: 100%;
   font-family: Tahoma, Geneva, Verdana, sans-serif, Curlz MT, Comic Sans MS;
-  
- 
+
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
+#cookie-agreement {
+  opacity: 0.5;
+  background: #2b2b2b;
+  position: absolute;
+  text-align: center;
+}
 small {
   font-size: 18px;
 }
@@ -33,7 +38,7 @@ big {
   background-color: #664f00;
   opacity: 0.5;
   font-size: 100px;
-  
+
   text-align: center;
   padding: 50px;
 }

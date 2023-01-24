@@ -6,4 +6,5 @@ html {
     background: url('favicon.jpg');
     padding: 130px;
     background-size: cover;
+    position: absolute;
 }

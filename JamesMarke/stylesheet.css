@@ -4,4 +4,6 @@ html {
 }
 .main-image-div {
     background: url('favicon.ico');
+    padding: 130px;
+    background-size: cover;
 }

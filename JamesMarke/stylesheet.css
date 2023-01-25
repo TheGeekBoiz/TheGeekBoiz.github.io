@@ -9,7 +9,5 @@ html {
     background-repeat: no-repeat;
     display: table;
     position: absolute;
-    margin: auto;
-    width: 50%;
     border-radius: 50%;
 }

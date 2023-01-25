@@ -7,8 +7,9 @@ html {
     padding: 130px;
     background-size: contain;
     background-repeat: no-repeat;
-    display: flex;
+    display: table;
     position: absolute;
-    justify-content: center;
+    margin: auto;
+    width: 50%;
     border-radius: 50%;
 }
